@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'jobs.apps.JobsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -79,6 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         #'ENGINE':'django.db.backends.sqlite3',
+        #'NAME':os.path.join(BASE_DIR,'db,sqlite3'),
         'NAME': 'portfoliodb',
         'USER':'postgres',
         'PASSWORD':'P@ssw0rd',
