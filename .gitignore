@@ -6,8 +6,7 @@
 *.log
 *.pot
 *.pyc
-*.jpg
-*.pdf
+
 __pycache__/
 local_settings.py
 db.sqlite3
